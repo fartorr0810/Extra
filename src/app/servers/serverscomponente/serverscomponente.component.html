@@ -1,0 +1,10 @@
+<div class="row" *ngFor="let servidor of servers;">
+    <div class="col">
+        <div class=" card mt-2 ">
+            <div class="card-header ">Nombre del servidor {{servidor.name}}</div>
+            <div class="card-body ">
+                <h5 class="card-title ">Server status {{servidor.status}}</h5>
+                <p class="card-text ">Estado del servidor - {{servidor.name}}</p>
+            </div>
+        </div>
+    </div>

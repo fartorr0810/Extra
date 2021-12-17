@@ -1,0 +1,12 @@
+<div class="row" *ngFor="let usuario of listausuarios">
+    <div class="col">
+        <!-- Mostraremos una tarjeta por cada usuario -->
+        <div class="card mt-2">
+            <div class="card-header">Nombre de usuario - {{usuario.name}}</div>
+            <div class="card-body"><span><strong>User id: {{usuario.id}}</strong>
+              id del usuario</span><br><span>
+              <strong>User email: {{usuario.email}}</strong> email del usuario</span></div>
+        </div>
+    </div>
+</div>
+<button type="button" class="btn btn-Link"><a href="createuser" >Crear Usuario</a></button>
